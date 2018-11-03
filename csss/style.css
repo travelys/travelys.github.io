@@ -126,7 +126,7 @@ a:hover {
 	width: 48%;
 }
 .two_third {
-	width: 65.33%;
+	width: 55%;
 }
 .three_fifth {
 	width: 58.4%;
@@ -188,6 +188,28 @@ a:hover {
 	height:1px;
 	width:40px;
 	background-color:#ccc;
+}
+.connect{	
+	font-size: 36px;
+    letter-spacing: 3px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.connect-hr{
+	margin: 0 auto !important;
+    background-color: #999999 !important;
+    width: 25% !important;
+	text-align: center !important;
+	float: none !important;
+}
+.details{
+	color: white;
+    margin-top: 18px;
+    font-size: 23px;
+    line-height: 2;
+    margin-bottom: 18px;
+    text-align: center;
 }
 
 .small-border-title h1, .small-border-title h2, .small-border-title h3, .small-border-title h4, .small-border-title h5, .small-border-title h6 { 
@@ -1533,6 +1555,12 @@ ul.tabs .tab-active a {
 	padding:15px 25px;
 	line-height:16px
 }
+.call{
+	color: white !important;
+}
+.call:hover{
+	text-decoration: underline !important;
+}
 .grey {
 	color:#FFF;
 }
@@ -1601,9 +1629,30 @@ i.icon-circle-box {
 	vertical-align:12px;
 	width:20px;
 	line-height:20px;
-	margin:0 5px;
+	margin:0 12px;
 	color:#fff;
 }
+.customize{
+	font-size: 18px;
+	top: 16px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.button{
+    border: 3px solid white;
+    color: white;
+    padding: 9px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.button:hover{
+	color: #9e3b3b;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ffffff;
+}
+
 i.fa-lg.icon-circle-box {
 	line-height: 30px;
 	width: 30px;
@@ -3887,7 +3936,7 @@ footer ul.socials-icons li {
 }
 .blog-content {
 	margin-top:35px;
-	margin-bottom:20px;
+	/* margin-bottom:20px; */
 }
 .post-quote {
 	padding:30px;
@@ -4500,7 +4549,7 @@ ul.fullwidth-slider li.slide .caption .caption-inside {
 	width: 100%;
 }
 .one_half, .one_third, .two_third, .three_fourth, .one_fourth, .two_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 	margin-right: 0%;
 }
 .section-title {
@@ -5871,6 +5920,7 @@ padding-left: 92px!important;
 .newave-newsletter .container {
 	padding-top:40px;
 	padding-bottom:20px;
+	text-align: center !important;
 }
 
 input:focus:invalid:focus, textarea:focus:invalid:focus, 
