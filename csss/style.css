@@ -6006,6 +6006,12 @@ overflow: hidden;
     background-size:auto;
 
 }
+@media (max-width:1300px){
+	.map{
+		text-align: center;
+		float: none;
+	}
+}
 
 
 @media (max-width:1020px){

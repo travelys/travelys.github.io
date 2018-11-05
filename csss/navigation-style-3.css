@@ -17,8 +17,8 @@
 }
 #logo a {
 	width:auto;
-	height:50px;
-	margin-top:8px;
+	height:64px;
+	/* margin-top:8px; */
 	display:block;
 }
 #logo a img {
